@@ -24,7 +24,7 @@ function initScroll() {
    * @ maxScrollY:屏幕最大滚动高度
   */ 
   // 滑动结束
-  scroll.on('touchend', function (position) {
+  scroll.on('touchEnd', function (position) {
     if (position.y > 30) {
       
       setTimeout(function () {
